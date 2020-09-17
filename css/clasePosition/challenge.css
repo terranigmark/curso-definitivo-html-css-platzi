@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main div {
+  border: 2px black solid;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.upper-block {
+  width: 30%;
+  height: 70px;
+  position: relative;
+  top: 35px;
+  background-color: red;
+}
+
+.upper-block p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.lower-block {
+  width: 60%;
+  height: 500px;
+  background-color: royalblue;
+}
+
+.lower-block p {
+  margin: 10% 10%;
+  max-height: 450px;
+  text-align: center;
+  font-size: 1.5rem;
+}
