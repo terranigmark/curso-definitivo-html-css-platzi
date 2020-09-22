@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: green;
+  border: 2px solid black;
+  min-height: 80px;
+}
+
+main {
+  display: inline-block;
+  background-color: gray;
+  border: 2px solid teal;
+}
+
+.main-sidebar {
+  display: inline-block;
+  background-color: salmon;
+  border: 2px solid blue;
+  width: 150px;
+}
+
+.main-sidebar__option {
+  background-color: rebeccapurple;
+  display: block;
+  padding: 20px 0;
+  margin: 20px 0;
+  min-height: 30px;
+  max-width: 50px;
+}
+
+.main-hero {
+  display: inline-block;
+  background-color: blue;
+  border: 2px solid red;
+}
+
+footer {
+  background-color: violet;
+  min-height: 30px;
+  border: 2px solid greenyellow;
+}
