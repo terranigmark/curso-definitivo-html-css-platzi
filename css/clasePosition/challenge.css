@@ -26,13 +26,12 @@ main div {
 
 .lower-block {
   width: 60%;
-  height: 500px;
+  min-height: 200px;
   background-color: royalblue;
 }
 
 .lower-block p {
   margin: 10% 10%;
-  max-height: 450px;
   text-align: center;
   font-size: 1.5rem;
 }
